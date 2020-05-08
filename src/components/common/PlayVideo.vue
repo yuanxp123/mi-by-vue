@@ -123,8 +123,10 @@ export default {
   transition: all .3s ease-out;
 	transform: translateY(30%);
 }
-
-.slideIn-enter, .slideIn-leave {
+.slideIn-enter{
+	transform: translateY(100%);
+}
+.slideIn-leave {
 	transform: translateY(-100%);
 }
 </style>

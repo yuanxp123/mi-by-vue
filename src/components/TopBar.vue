@@ -22,7 +22,7 @@
 			<div class="topbar-cart fa cart-arrow-down"
         @mouseenter="evtCartEnter"
         @mouseleave="evtCartOut">
-				<div class="cart"
+		<div class="cart"
           :class="{'active': cartStatus}">
 					<i class="fa fa-cart-arrow-down icon-cart"></i>
 					<a href="http://static.mi.com/cart/">

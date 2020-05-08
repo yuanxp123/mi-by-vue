@@ -13,8 +13,8 @@
 		<div
 			class="slide"
 			transition="fadeIn"
-			v-show="$index === curpage"
-			v-for="item in banners">
+			v-show="index == curpage"
+			v-for="(index,item) in banners">
 			<a :href="item.sourceUrl" target="_blank">
 				<img :src="item.imgUrl" alt="" />
 			</a>
